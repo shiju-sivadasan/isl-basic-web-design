@@ -1,0 +1,250 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    margin: 0%;
+    width: 100%;
+    height: 70px;
+    height: 70px;
+    background-color: rgb(37, 9, 248);
+    border-bottom: 2px solid black;
+    position: fixed;
+    display: block;
+    clear: both;
+}
+.nav img{
+    padding-top: 4px;
+    height: 60px;
+    width: 80px;
+}
+.nav-bar{
+    display: flex;
+    width: 25%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 895px;
+}
+.menu-bar a{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 20px;
+    color: white;    
+}
+.menu-bar{
+    width: 180px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 58px;
+}
+.menu-bar:hover{
+    background-color: rgba(255, 247, 0, 0.808);
+    border-radius: 5px;
+}
+.about{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    padding-top: 71px;
+    height: 743px;
+    text-align: center;
+    border-bottom: #be3144;
+}
+.about h1{
+    color: rgb(255, 251, 2);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    padding-top: 240px;
+    font-style: italic;
+}
+.about p{
+    color: #be3144;
+    font-style: italic;
+    font-size: 30px;
+}
+.players{
+    width: 100%;
+    height: 2000px;
+    background-color: #45567d;
+    margin-top: -41px;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    border-bottom: 1px solid white;
+}
+.blasters h1{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.details{
+    width: 90%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.player{
+    height: 420px;
+    width: 350px;   
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.player-img{
+    height: 346px;
+    width: 370px;
+    margin-bottom: -3px;
+}
+.name{
+    background-color: #181719;
+    text-align: center;
+    box-sizing: border-box;
+    height: 70px;
+    padding-top: 20px;
+}
+.name a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.name:hover{
+    background-color: #be3144;
+    transition: 0.5s;
+}
+.btn{
+    margin-left: 780px;
+    margin-top: 20px;
+    width: 20x;
+    background-color: brown;
+    color: wheat;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px black;
+}
+.btn:hover{
+    background-color: #f6ff00;
+    transition: 0.5s;
+    transform: rotate(360deg);
+    color: black;
+}
+.end{
+    width: 100%;
+    height: 750px;
+    background-color: #efd002;
+    background-image: linear-gradient(319deg, #efd002 0%, #31b74a 37%, #442ce0 100%);
+    
+}
+.end-details{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    font-family: cursive;
+}
+.end-details h1{
+    font-size: 60px;
+}
+.end-details p{
+    font-style: italic;
+    font-size: 30px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 5px
+}
+a{
+    float: left;
+}
+.fb a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.Youtube a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.twitter a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.call a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.mail a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.fb a:hover{
+    position: relative;
+    top: 8px;
+    transition: 0.2s;
+    transform: rotate(20deg);
+}
+.Youtube a:hover{
+    position: relative;
+    top: 8px;
+    transition: 0.2s;
+    transform: rotate(20deg);
+}
+.twitter a:hover{
+    position: relative;
+    top: 8px;
+    transition: 0.2s;
+    transform: rotate(20deg);
+}
+.mail a:hover{
+    position: relative;
+    top: 8px;
+    transition: 0.2s;
+    transform: rotate(20deg);
+}
+.call a:hover{
+    position: relative;
+    top: 8px;
+    transition: 0.2s;
+    transform: rotate(20deg);
+}
+.line{
+    border-bottom: 2px solid #be3144;
+    margin-top: 210px;
+}
+.foot{
+    display: inline-flex;
+    padding-left: 290px;
+}
+.foot p{
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    cursor: pointer;
+}
